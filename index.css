@@ -1,0 +1,26 @@
+.add-btn {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    font-size: 3em;
+    padding: 0 .35em;
+    cursor: pointer;
+    border: 2px solid;
+}
+
+.add-btn {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    font-size: 3em;
+    padding: 7px;
+    cursor: pointer;
+    border: 2px solid;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.add-ticker-svg {
+    width: 14px;
+}
