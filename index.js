@@ -12,6 +12,8 @@
 
 // console.log(response)
 
+
+
 document.querySelector('.btn#add-btn').addEventListener('click', () => {
     fetchOutput();
 })
@@ -29,7 +31,7 @@ async function fetchOutput() {
             const errMsg = await response.text()
             throw new Error('Worker error: ' + errMsg)
         }
-        document.querySelector('#output').textContent(response.text())
+        document.querySelector('#output').textContent = response.text()
     } catch(err){
         console.error(err.message)
     }
